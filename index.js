@@ -20,4 +20,3 @@ const port = process.env.SERVER_PORT || 3000; // Buscar "SERVER_PORT" ao ficheir
 app.listen(port, () => {
   console.log(`Server open at: http://localhost:${port}`);
 });
-module.exports = app;
