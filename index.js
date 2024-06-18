@@ -3,7 +3,7 @@ const cors = require("cors"); // Buscar o pacote "cors"
 const morgan = require("morgan"); // Buscar o pacote "morgan"
 const express = require("express"); // Buscar o pacote "express"
 const cookieParser = require("cookie-parser"); // Buscar o pacote "cookie-parser"
-const router = require("./router/router"); // Buscar o ficheiro "router.js"
+const router = require("./src/router/router"); // Buscar o ficheiro "router.js"
 
 const app = express(); // Inicialização da aplicação express
 
